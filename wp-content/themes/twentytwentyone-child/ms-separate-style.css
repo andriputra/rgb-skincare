@@ -1,0 +1,473 @@
+/*
+CTC Separate Stylesheet
+Updated: 2021-02-23 06:54:54
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+p, span{
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+a:hover{
+    color: red;
+}
+#masthead,#colophon,
+.widget-area{
+    display: none;
+}
+#main{
+    padding: 0px;
+}
+#Landingpage{
+    margin-bottom: 0px;
+}
+#Landingpage .container{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+#Landingpage section{
+    padding: 60px 0px;
+}
+#Landingpage section.one{
+    background: #803900;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    padding-bottom: 400px;
+}
+#Landingpage section.one .head-title{
+    margin-bottom: 60px;
+}
+#Landingpage section.one .head-title h3{
+    margin-bottom: 0px;
+    font-size: 44px;
+    font-weight: 600;
+}
+#Landingpage section.one .head-title h5{
+    font-size: 26px;
+    color: #f5c16c;
+    width: 70%;
+    margin: 30px auto 0px;
+}
+#Landingpage section.one .logo-rgb{
+    width: 22%;
+    margin: 0 auto;
+}
+#Landingpage section.one .head-image{
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    left: 25%;
+    bottom: -120%;
+}
+#Landingpage section.one .head-image img{
+    display: inline-block;
+    width: 100%;
+    border-radius: 30px;
+    border: 3px solid #ffffff;
+    padding: 10px;
+}
+#Landingpage section .divider{
+    background-image: url('http://www.skincare-rgb.com/wp-content/uploads/2021/02/divider.png');
+    background-repeat: no-repeat;
+    width: 260px;
+    display: block;
+    height: 45px;
+    background-size: contain;
+    filter: invert(100%);
+    margin: 0 auto;
+}
+#Landingpage section.two{
+    background-image: url('http://www.skincare-rgb.com/wp-content/uploads/2021/02/bg-glow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: invert(100%);
+    margin: 0 auto;
+    padding-top: 230px;
+    text-align: center;
+}
+#Landingpage section.two .present{
+    color: #333333;
+    filter: invert(100%);
+}
+#Landingpage section.two .present h3{
+    font-weight: 600;
+    font-size: 36px;
+}
+#Landingpage section.two .present h3.font-uniq{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+    color: #f5c16c;
+}
+#Landingpage section.two .present h3:last-child{
+    color: #aa2b1d;
+}
+#Landingpage section.two .description{
+    color: #333333;
+    width: 50%;
+    margin: 0 auto;
+    filter: invert(100%);
+}
+#Landingpage section.two .foto-catalouge{
+    filter: invert(100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+#Landingpage section.two .foto-catalouge .image-cat{
+    flex: 30% 0 0;
+    margin: 0px 20px;
+}
+#Landingpage section.two .foto-catalouge .image-cat img{
+    width: 100%;
+    border: 4px solid #f5c16c;
+    border-radius: 12px;
+    padding: 3px;
+}
+#Landingpage section.three{
+    text-align: center;
+    background-color: rgba(245, 193, 108, 0.65);
+}
+#Landingpage section.three .why{
+    margin-bottom: 80px;
+}
+#Landingpage section.three .why h3{
+    font-weight: 600;
+}
+#Landingpage section.three .featured{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+}
+#Landingpage section.three .featured .item{
+    flex: 50% 0 0;
+    padding: 0px 20px 40px;
+}
+#Landingpage section.three .featured:last-child .item{
+    padding-bottom: 0px;
+}
+#Landingpage section.three .featured .item .description h4{
+    color: #aa530e;
+    margin-bottom: 10px;
+}
+#Landingpage section.three .featured .item .description .icon{
+    height: 212px;
+    display: inline-block;
+    width: 200px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+#Landingpage section.three .featured .item .description .icon img{
+    width: 100%;
+}
+#Landingpage .divider.uniq{
+    position: absolute;
+    bottom: -145px;
+    left: 38.7%;
+}
+#Landingpage section.four{
+    background-color: #f3eded;
+    text-align: center;
+}
+#Landingpage section.four .where h3{
+    font-weight: 600;
+    width: 50%;
+    margin: 0 auto 40px;
+}
+#Landingpage section.four .where p {
+    margin-bottom: 4px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Landingpage section.four .where h3.index{
+    font-size: 18px;
+    color: red;
+    width: 100%;
+}
+#Landingpage section.four .price-table{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+}
+#Landingpage section.four .price-table .price-table-item{
+    flex: 47.5% 0 0;
+    margin: 0px 9px;
+    border: 5px solid #df8931;
+    border-radius: 12px;
+    padding: 10px;
+    background: #ffffff;
+}
+#Landingpage section.four .price-table .price-table-item .image{
+    margin-bottom: 30px;
+}
+#Landingpage section.four .price-table .price-table-item .image img{
+    width: 100%;
+}
+#Landingpage section.four .price-table .price-table-item .desc-package h4{
+    color: #aa2b1d;
+    font-weight: 600;
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 0px;
+}
+#Landingpage section.four .price-table .price-table-item .desc-package span{
+    font-size: 35px;
+    margin: 0px;
+    font-weight: 600;
+    color: #f5c16c;
+}
+#Landingpage section.four .price-table .price-table-item .desc-package ul{
+    padding-left: 36px;
+    text-align: left;
+    margin: 20px 0px;
+}
+#Landingpage section.four .price-table .price-table-item .desc-package ul li{
+    font-size: 18px;
+    position: relative;
+}
+#Landingpage section.four .price-table .price-table-item .btn-order,
+#Landingpage section .btn-order{
+    display: block;
+    border-radius: 50px;
+    padding: 0px;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    width: 70%;
+    margin: 0 auto 20px;
+    color: #aa530e;
+    text-align: center;
+}
+#Landingpage section.four .price-table .price-table-item .btn-order:hover,
+#Landingpage section .btn-order:hover{
+    background: #aa530e;
+    color: #ffffff;
+}
+#Landingpage section .btn-order.other{
+    width: 25%;
+    margin-top: 30px;
+    background: transparent;
+    border: none;
+    padding: 0px;
+}
+#Landingpage section.five h3{
+    font-weight: 600;
+    text-align: center;
+}
+#Landingpage section.five .divider{
+    filter: grayscale(1);
+    margin-bottom: 40px;
+}
+#Landingpage section.six{
+    background: #f5c16c;
+    text-align: center;
+}
+#Landingpage section.six h3{
+    font-weight: 600;
+    color: #aa530e;
+    width: 60%;
+    margin: 0 auto 15px;
+}
+#Landingpage section.six h4{
+    color: #871818;
+}
+#Landingpage section.six p{
+    width: 40%;
+    margin: 20px auto;
+}
+#Landingpage section.six .affiliasi-image{
+    width: 50%;
+    margin: 40px auto;
+}
+#Landingpage section .btn-order.other.reseler{
+    width: 30%;
+    background: #aa2b1d;
+    color: #ffffff;
+    padding: 10px;
+    border: 5px solid #ef8d32;
+}
+#Landingpage section .btn-order.other.reseler:hover{
+    background-color: #ef8d32;
+}
+#Landingpage section.seven{
+    background-image: url('http://www.skincare-rgb.com/wp-content/uploads/2021/02/bg-glow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+}
+#Landingpage section.seven .title{
+    width: 50%;
+    margin: 0px auto 40px;
+}
+#Landingpage section.seven .title h3{
+    font-weight: 600;
+    font-size: 36px;
+    color: #007600;
+}
+#Landingpage section.seven .box-testimoni{
+    width: 70%;
+    margin: 40px auto 0px;
+}
+#Landingpage section.footer{
+    padding: 10px 0px;
+    background-color: #f5c16c;
+    color: #ffffff;
+    font-size: 12px;
+}
+#Landingpage section.footer p{
+    margin-bottom: 0px;
+}
+#Landingpage section.footer a{
+    color: #ffffff;  
+}
+#Landingpage section.eight{
+    text-align: center;
+    background: #fcecd3;
+}
+#Landingpage section.eight .title{
+    margin-bottom: 40px;
+}
+#Landingpage section.eight h3{
+    font-weight: 600;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+#Landingpage section.eight .social-other{
+    display: flex;
+    justify-content: center;
+}
+#Landingpage section.eight .social-other a{
+    width: 7%;
+    margin: 0px 10px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    #Landingpage .container{
+        width: 100%;
+    }
+    #Landingpage section.one .head-title h5{
+        width: 100%;
+    }
+    #Landingpage section.one .head-image {
+        width: 90%;
+        margin: 0 auto;
+        position: absolute;
+        left: 5%;
+        bottom: -300px;
+    }
+    #Landingpage section.one{
+        padding-bottom: 200px;
+    }
+    #Landingpage section.one .logo-rgb {
+        width: 70%;
+    }
+    #Landingpage section.two{
+        padding-top: 180px;
+    }
+    #Landingpage section.two .present h3.font-uniq {
+        font-size: 48px;
+    }
+    #Landingpage section.two .foto-catalouge {
+        display: block;
+    }
+    #Landingpage section.two .foto-catalouge .image-cat {
+        margin: 0px 20px 20px;
+    }
+    #Landingpage section.two .description {
+        width: 80%;
+    }
+    #Landingpage .divider.uniq {
+        left: 14%;
+    }
+    #Landingpage section.three .why {
+        width: 80%;
+        margin: 0 auto 80px;
+    }
+    #Landingpage section.three .featured {
+        display: block;
+    }
+    #Landingpage section.three .featured .item {
+        padding: 0px 0px 40px;
+        margin-bottom: 20px;
+    }
+    #Landingpage section.four .where h3 {
+        width: 80%;
+    }
+    #Landingpage section.four .where p {
+        margin-bottom: 4px;
+        padding: 0px 20px;
+    }
+    #Landingpage section.four .where h3.index{
+        padding: 0px 20px;
+    }
+    #Landingpage section.four .price-table {
+        display: block;
+        width: 90%;
+    }
+    #Landingpage section.four .price-table .price-table-item{
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    #Landingpage section .btn-order.other {
+        width: 50%;
+    }
+    #Landingpage section.six h3 {
+        width: 80%;
+    }
+    #Landingpage section.six p {
+        width: 80%;
+    }
+    #Landingpage section.six h4 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #Landingpage section.six .affiliasi-image {
+        width: 90%;
+    }
+    #Landingpage section .btn-order.other.reseler {
+        width: 80%;
+    }
+    #Landingpage section.seven .title {
+        width: 80%;
+    }
+    #Landingpage section.seven .title h3 {
+        font-size: 30px;
+    }
+    #Landingpage section.seven .box-testimoni {
+        width: 90%;
+    }
+    #Landingpage section .btn-order.other {
+        width: 60%;
+    }
+    #Landingpage section.footer {
+        text-align: center;
+    }
+}
